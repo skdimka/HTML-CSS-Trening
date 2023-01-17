@@ -1,0 +1,205 @@
+body {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    background: url(/chaserbody2.png);
+    margin: 0;
+    min-width: 400px;
+}
+
+.container {
+    font-size: 1rem;
+}
+
+.boxmodel {
+    margin-bottom: 20px;
+    background-color: rgb(184, 177, 177, 0.9);
+    padding: 40px;
+}
+
+.info_box {
+    margin-bottom: 20px;
+    display: flex;
+    background-color: rgb(184, 177, 177, 0.9);
+    padding: 25px;
+}
+
+.info-text {
+    margin-left: 40px;
+
+}
+
+.info-text p {
+    font-style: initial;
+    font-weight: bold;
+    color: #515151;
+    margin: 10px;
+}
+
+.info-text h1 {
+    margin: 0 10px 0 10px;
+}
+
+@media (max-width: 650px) {
+    .info_box {
+        display: block;
+        /* text-align: center; */
+    }
+}
+
+.boxmodel textarea {
+    color: rgb(167, 161, 173);
+    margin: 10px 0px 10px 0px;
+    width: 20%;
+    padding: 5px;
+}
+
+.boxmodel input {
+    color: rgb(167, 161, 173);
+    margin: 10px 0px 10px 0px;
+    width: 20%;
+    padding: 5px;
+}
+
+.boxmodel label {
+    color: rgb(0, 0, 0);
+
+}
+
+td {
+    background-color: rgb(255, 246, 246);
+    border: double;
+
+    /* line-height: 25px; */
+    /* border-spacing: 10px 10px; */
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    /* padding: auto; */
+
+}
+
+.Etoporsh {
+    font-style: italic;
+}
+
+.text {
+    /* background-color: rgba(0, 255, 255, 0.371); */
+    color: rgb(0, 0, 0);
+    /* border-style: double; */
+    margin-bottom: 10px;
+    width: 650px;
+    /* padding: auto; */
+}
+
+.text_podpis {
+    opacity: 0.5;
+}
+
+.text_input {
+    background-color: rgba(96, 107, 107, 0.371);
+    border-style: double;
+    line-height: 35px;
+    padding: 3px;
+    /* margin: auto; */
+}
+
+.text_list {
+    background-color: rgba(96, 107, 107, 0.371);
+    border-style: double;
+    width: 200px;
+}
+
+.text_list li {
+    margin-bottom: 5px;
+}
+
+.text_table {}
+
+.text_table td:hover {
+    /* background-color: beige; */
+    opacity: 0.7;
+}
+
+.text_table table {
+    /* margin: 10px; */
+    /* text-align: center; */
+    /* border-right: 0; */
+    padding: 1px;
+    margin: 1px;
+    background-color: blue;
+    border-style: double;
+    background-color: rgba(96, 107, 107, 0.371);
+}
+
+.text_table th {
+    padding: 5px;
+    /* width: 200; */
+}
+
+.text_table td {
+    /* padding: 15px; */
+    /* margin-bottom: 5px; */
+    /* margin-right: 20px; */
+}
+
+.text_table tr:nth-child(odd) {
+    background-color: hwb(0 74% 25% / 0.87);
+    /* opacity: 0.7; */
+}
+
+.input_block {
+    border: double;
+}
+
+.image {
+    width: 300px;
+    border: double;
+    border-radius: 20px;
+    box-shadow: 10px 10px 14px rgba(14, 14, 14, 0.4);
+
+}
+
+.image:hover {
+    opacity: 0.95;
+}
+
+a {
+    width: 450px;
+    /* border: double; */
+    /* border-radius: 20px; */
+    /* box-shadow: 10px 10px 14px rgba(14, 14, 14, 0.4); */
+
+    /* transition: all .2s; */
+    text-decoration: none;
+    margin-left: 10px;
+
+}
+
+a:hover {
+    /* font-size: 2rem; */
+    color: rgb(207, 29, 29);
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(255, 145, 0)
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+}
+
+.btn {
+    border: double;
+    border-color: black;
+    color: rgb(0, 0, 0);
+    background-color: rgba(96, 107, 107, 0.371);
+    padding: 6px 10px;
+    margin: 6p 10px;
+    border-radius: 15%;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
